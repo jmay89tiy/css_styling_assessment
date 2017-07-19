@@ -1,0 +1,182 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+header {
+  background-color: #ff8523;
+  border-color:#ffd24a;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+}
+
+
+
+.main_navigation > a {
+  display: inline-block;
+  font-family: helvetica, arial, sans-serif;
+color:white;
+padding: 2px 20px 2px 20px;
+margin: 12px 0px 20px 0px;
+border-color: white;
+border-width: 1px;
+border-style: solid;
+border-radius: 3px;
+
+}
+
+.main_navigation {
+  margin: 0px 0px 0px 15px;
+}
+
+
+#page_content {
+
+font-family: helvetica, arial, sans-serif;
+padding: 25px 0px 0px 25px;
+background-color: white;
+border-color:#ffd24a;
+border-top-style: none;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+}
+
+body {
+  background-color: #7f959c;
+  width:100%;
+}
+
+body>div {
+  background-color: rgb(155, 174, 208);
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p > a {
+  color:#1fabe5;
+}
+
+h2 {
+  color:#1fabe5;
+}
+
+h3 {
+  color:#1fabe5;
+}
+
+td {
+  padding: 10px;
+}
+
+td>img {
+  width: 50px;
+  height: 50px;
+}
+
+table {
+border-collapse: collapse;
+}
+
+table, thead, tr, td {
+  border: 1px solid #1fabe5;
+}
+thead {
+  border: 1px solid rgb(28, 53, 78);
+  border-collapse: collapse;
+}
+
+thead>tr>td {
+  border: 1px solid rgb(28, 53, 78);
+  color: white;
+  background-color:#1fabe5
+  ;
+}
+
+form {
+  background-color: #dddddd;
+
+}
+
+form div {
+  background-color: #dddddd
+}
+
+label {
+  padding: 10px;
+  margin: 10px;
+}
+
+.city_container {
+  margin-bottom: 20px;
+
+}
+
+
+
+textarea {
+  font-size:80%;
+  font-style:helvetica;
+  border: 1px solid #1fabe5;
+  padding: 10px;
+  margin: 10px;
+  width: 95%;
+}
+
+.city_container {
+  background-color:#dddddd;
+}
+
+.submit_container {
+  background-color:#dddddd;
+}
+
+{
+  background-color:#dddddd;
+}
+.name {
+  font-family: helvetica, arial, sans-serif;
+  background-color:#ff8523;
+  color:white;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 25px;
+  width:93%;
+}
+
+
+
+.name >input {
+  width: 200px;
+  height: 35px;
+}
+
+.city_container {
+  background-color:#dddddd;
+}
+
+#submit_button{
+  font-style: helvetica;
+  font-family: helvetica;
+  font-size:120%;
+  background-color: #1fabe5;
+  color: white;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin: 5px;
+}
